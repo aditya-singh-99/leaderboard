@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input,button{
+    all: unset;
+    height: 2.5rem;
+    width: 18%;
+    border: 1px solid pink;
+    padding-left: 0.5rem;
+    font-size: 1.15rem;
+}
+
+button{
+    background-color: pink;
+    color: whitesmoke;
+    text-align: center;
+    cursor: pointer;
+}
+
+.leaderboard{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.details{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.15rem;
+    background-color: pink;
+}
+
+.details div{
+    width: 25%;
+}
+
+.options{
+    display: flex;
+    gap: 1rem;
+}
+
+.options div{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+.options div:hover{
+    background-color: greenyellow;
+}
